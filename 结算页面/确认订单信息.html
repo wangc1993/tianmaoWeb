@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <script src="../jquery/jquery.min.js"></script>
+    <link href="../bootstrap/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/结算页面/确认订单信息.css">
+</head>
+<body>
+<div class="buyPageDiv">
+    <div class="productList">
+        <div class="productListTip">确认订单信息</div>
+        <table class="productListTable">
+            <thead>
+                <tr>
+                    <th class="productListTableFirstColumn" colspan="2">
+                        <img src="../images/site/tmallbuy.png" class="tmallbuy">
+                        <a href="#nowhere" class="marketLink">店铺：天猫店铺</a>
+                        <a href="#nowhere" class="wangwanglink">
+                            <span class="wangwangGif"></span>
+                        </a>
+                    </th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>配送方式</th>
+                </tr>
+                <tr class="rowborder">
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody class="productListTableTbody">
+                <tr class="orderItemTR">
+                    <td class="orderItemFirstTD">
+                        <img src="../images/productSingle middle/3665.jpg" class="orderItemImg">
+                    </td>
+                    <td class="orderItemProductInfo">
+                        <a href="#nowhere" class="orderItemProductLink">
+                            美国iRobot扫地机器人吸尘器全自动家用智能扫地机650 天猫电器城
+                        </a>
+                        <img src="../images/site/creditcard.png" title="支持信用卡支付">
+                        <img src="../images/site/7day.png" title="消费者保障服务,承诺7天退货">
+                        <img src="../images/site/promise.png" title="消费者保障服务,承诺如实描述">
+                    </td>
+                    <td>
+                        <span class="orderItemProductPrice">￥5,306.00</span>
+                    </td>
+                    <td>
+                        <span class="orderItemProductNumber">7</span>
+                    </td>
+                    <td>
+                        <span class="orderItemUnitSum">
+                            ￥37,142.00
+                        </span>
+                    </td>
+                    <td rowspan="2" class="orderItemLastTD">
+                        <label class="orderItemDeliveryLabel">
+                            <input type="radio" name="" checked="checked">
+                            普通配送
+                        </label>
+                        <select class="orderItemDeliverySelect">
+                            <option>快递 免邮费</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="orderItemTR">
+                    <td class="orderItemFirstTD"><img class="orderItemImg" src="../images/productSingle middle/8510.jpg"></td>
+                    <td class="orderItemProductInfo">
+                        <a  href="foreproduct?pid=809" class="orderItemProductLink">
+                            阔腿裤三件套装女夏装2016新款大码雪纺时尚休闲气质棉麻九分裤潮
+                        </a>
+                        <img src="../images/site/creditcard.png" title="支持信用卡支付">
+                        <img src="../images/site/7day.png" title="消费者保障服务,承诺7天退货">
+                        <img src="../images/site/promise.png" title="消费者保障服务,承诺如实描述">
+                    </td>
+                    <td>
+                        <span class="orderItemProductPrice">￥152.75</span>
+                    </td>
+                    <td>
+                        <span class="orderItemProductNumber">1</span>
+                    </td>
+                    <td><span class="orderItemUnitSum">
+                        ￥152.75
+                       </span>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+        <div class="orderItemSumDiv">
+            <div class="pull-left">
+                <span class="leaveMessageText">给卖家留言:</span>
+                <span>
+                    <img class="leaveMessageImg" src="../images/site/leaveMessage.png">
+                </span>
+                <span class="leaveMessageTextareaSpan" style="display: none;">
+                    <textarea name="userMessage" class="leaveMessageTextarea"></textarea>
+                    <div>
+                        <span>还可以输入200个字符</span>
+                    </div>
+                </span>
+            </div>
+            <span class="pull-right">店铺合计(含运费): ￥37,294.75</span>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="orderItemTotalSumDiv">
+        <div class="pull-right">
+            <span>实付款：</span>
+            <span class="orderItemTotalSumSpan">￥37,294.75</span>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="submitOrderDiv">
+        <button type="submit" class="submitOrderButton">提交订单</button>
+    </div>
+</div>
+</body>
+</html>

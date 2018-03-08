@@ -1,0 +1,49 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-02 10:22:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-02 11:03:12
+*/
+div.buyPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.address{
+    margin: 20px 5px;
+    text-align: left;
+}
+div.addressTip{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+table.addressTable{
+    margin: 20px;
+    width: 600px;
+    font-size: 12px;
+}
+table.addressTable td{
+    color: #333;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 5px;
+    height: 30px;
+}
+table.addressTable td.firstColumn{
+    width: 100px;
+}
+table.addressTable td textarea{
+    border: 1px solid #afafaf;
+    margin-bottom: 10px;
+    width: 400px;
+}
+table.addressTable td input{
+    border: 1px solid #afafaf;
+    width: 220px;
+}
+span.redStar{
+    color: red;
+    font-size: 8px;
+}

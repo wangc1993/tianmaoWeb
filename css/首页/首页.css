@@ -1,0 +1,131 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-21 10:47:50
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-15 08:44:39
+*/
+@import url(../公共页面样式/导航栏.css);
+@import url(../公共页面样式/搜索栏.css);
+@import url(../公共页面样式/页脚一.css);
+@import url(../公共页面样式/页脚二.css);
+
+@import url(导航和轮播.css);
+@import url(分类和推荐产品.css);
+@import url(产品列表.css);
+div.carouselbackgroungDiv{
+    width: 100%;
+    height: 510px;
+    background-color: #e8e8e8;
+    position: absolute;
+    top: 36px;
+    z-index: -1;
+}
+div.productsAsideCategory{
+    display: none;
+}
+/* 顶部搜索浮动*/
+.floatSearchDiv{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #e22127;
+    opacity: .95;
+    z-index: 800;
+    display: none;
+    animation: change1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes change1{
+    from {height: 0;}
+    to {height: 50px;}
+}
+@keyframes change2{
+    from {height: 0;}
+    to {height: 30px;}
+}
+.floatSearchText{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 990px;
+    height: 40px;
+    position: relative;
+}
+
+}
+.floatSearchleftImg{
+    position: absolute;
+}
+.floatSearchleftImg img{
+    animation: change2;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+.floatSearchInfo{
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+.floatSearchInfo input{
+    float: left;
+    width: 300px;
+    font-size: 12px;
+    height: 30px;
+    border-width: 0;
+    padding-left: 5px;
+    animation: change2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.floatSearchInfo button{
+    width: 80px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #c40000;
+    border-width: 0;
+    animation: change2;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+/*右侧悬浮导航*/
+.float{
+    width:111px;
+    height:504px;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    display:none;
+    overflow:hidden;
+    z-index:1000;
+    }/*left50%确保页面中间，左边距515大于页面内容的一半，确保在内容整体右侧外*/
+ .float a{
+    display:block;
+    text-indent:-9999px;
+    overflow:hidden;
+    height:42px;
+    background:url(../../images/site/right_nav.png) no-repeat;
+    transition:background 0.2s ease;
+}
+.float .an_1:hover{background-position:-111px 0}
+.float .an_2{background-position:-222px 0}
+.float .an_2:hover{background-position:-333px 0}
+.float .an_3{background-position:-444px 0}
+.float .an_3:hover{background-position:-555px 0}
+.float .an_4{background-position:-666px 0}
+.float .an_4:hover{background-position:-777px 0}
+.float .an_5{background-position:-888px 0}
+.float .an_5:hover{background-position:-999px 0}
+.float .an_6{background-position:-1110px 0}
+.float .an_6:hover{background-position:-1221px 0}
+.float .an_7{background-position:-1332px 0}
+.float .an_7:hover{background-position:-1443px 0}
+.float .an_8{background-position:-1554px 0}
+.float .an_8:hover{background-position:-1665px 0}
+.float .an_9{background-position:-1776px 0}
+.float .an_9:hover{background-position:-1887px 0}
+.float .an_10{background-position:-1998px 0}
+.float .an_10:hover{background-position:-2109px 0}
+.float .an_11{background-position:-2442px 0}
+.float .an_11:hover{background-position:-2553px 0}
+.float .an_12{background-position:-2220px 0}
+.float .an_12:hover{background-position:-2331px 0}

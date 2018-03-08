@@ -1,0 +1,71 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-19 19:35:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-20 13:11:22
+*/
+/* 产品列表 */
+div.homepageCategoryProducts{
+    background-color: #f5f5f5;
+    padding: 50px 10px;
+    margin: 10px auto;
+    max-width: 1013px;/*当分辨率比较大的时候，不设置最大宽度，就会铺满整个屏幕*/
+}
+div.productTtem{
+    width: 189px;
+    height: 289px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 8px 4px;
+    float: left;
+    cursor: pointer;
+}
+div.productTtem:hover{
+    border: 1px solid #c40000;
+}
+div.productTtem span.productTtemDesc{
+    font-size: 12px;
+    color: #666666;
+    padding: 16px;
+    display: block;
+}
+div.productTtem span.productPrice{
+    font-size: 16px;
+    color: #ff003a;
+    display: block;
+    padding-left: 16px;
+    margin-top: -10px;
+}
+div.productTtem img{
+    width: 187px;
+    height: 190px;
+}
+div.productTtem img:hover{
+    opacity: 0.7;
+}
+div.eachHomepageCategoryProducts{
+    margin-bottom: 40px;
+}
+a.productItemDescLink{
+    display: inline-block;
+    height: 66px;
+    text-decoration: none;
+}
+span.categoryTitle{
+    font-size: 16px;
+    margin-left: 30px;
+    color: #646464;
+    font-weight: bold;
+}
+div.left-mark{
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    background-color: #19c8a9;
+    vertical-align: top;/*??????*/
+}
+img.endpng{
+    display: block;
+    width: 82px;
+    margin: 0 auto;
+}

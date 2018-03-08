@@ -1,0 +1,98 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-03 21:03:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-04 08:13:24
+*/
+@import url(公共页面样式/导航栏.css);
+@import url(公共页面样式/搜索栏.css);
+@import url(公共页面样式/页脚一.css);
+@import url(公共页面样式/页脚二.css);
+
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+div.searchResultDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    min-width: 300px;
+}
+/* div.searchProducts{
+    padding: 0 20px 40px 20px;
+} */
+div.productUnit{
+    width: 225px;
+    height: 338px;
+    border: 3px solid #fff;
+    background-color: white;
+    margin: 12px 5px;
+    float: left;
+}
+div.productUnit:hover{
+    border-color: #c40000;
+}
+/*为了让鼠标悬停的时候边框变宽，套了两层div，防止单层设置改变边框宽度时会向内压缩元素*/
+div.productUnitFrame{
+    border: 1px solid #eee;
+    height: 100%;
+}
+div.productUnitFrame:hover{
+    border-color: #c40000;
+}
+div.productUnit img.productImage{
+    width: 100%;
+    height: 190px;
+}
+div.productUnit span.productPrice{
+    font-size: 20px;
+    color: #cc0000;
+    display: block;
+    padding-left: 4px;
+}
+div.productUnit a.productLink{
+    margin: 10px 0;
+    color: #333333;
+    display: block;
+    height: 34px;
+}
+div.productUnit a.productLink:hover{
+    text-decoration: underline;
+    color: #c40000;
+}
+div.productUnit a.tmallLink{
+    margin: 10px 0;
+    color: #999999;
+    text-decoration: underline;
+    display: block;
+}
+div.productUnit a.tmallLink:hover{
+    text-decoration: underline;
+    color: #c40000;
+}
+div.productUnit div.productInfo{
+    border-top: 1px solid #eeeeee;
+    color: #999999;
+}
+div.productUnit span.productDealNumber{
+    font-weight: bold;
+    color: #b57c5b;
+}
+div.productUnit span.productReview{
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+div.productUnit span.productReviewNumber{
+    font-weight: bold;
+    color: #3388bb;
+}
+div.productUnit span.monthDeal,div.productUnit span.productReview{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+div.productUnit span.wangwang{
+    padding-left: 4px;
+}

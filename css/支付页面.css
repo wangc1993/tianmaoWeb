@@ -1,0 +1,39 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-04 09:04:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-04 09:50:31
+*/
+@import url(公共页面样式/导航栏.css);
+@import url(公共页面样式/页脚一.css);
+@import url(公共页面样式/页脚二.css);
+
+div.aliPayPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    text-align: center;
+}
+div.aliPayPageLogo{
+    margin: 20px;
+}
+span.confirmMoneyText{
+    color: #4d4d4d;
+}
+span.confirmMoney{
+    display: block;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+button.confirmPay{
+    background-color: #0ae;
+    border: 1px solid #0ae;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    width: 107px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 20px;
+}

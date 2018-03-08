@@ -1,0 +1,60 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-29 11:09:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-29 14:43:30
+*/
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+div.cartDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    color: black;
+}
+div.cartTitle button{
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+    color: white;
+    width: 53px;
+    height: 25px;
+    border-radius: 2px;
+}
+span.cartTitlePrice{
+    color: #c40000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+div.cartFoot{
+    background-color: #e5e5e5;
+    line-height: 50px;
+    margin: 20px 0;
+    color: black;
+    padding-left: 20px;
+}
+div.cartFoot button{
+    background-color: #aaaaaa;
+    border: 0px solid #aaa;
+    color: white;
+    height: height%;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+img.selectAllItem{
+    cursor: pointer;
+}
+span.cartSumNumber{
+    color: #c40000;
+    font-size: 16px;
+    font-weight: bold;
+}
+span.cartSumPrice{
+    color: #c40000;
+    font-size: 20px;
+    font-weight: bold;
+}

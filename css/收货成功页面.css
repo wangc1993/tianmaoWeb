@@ -1,0 +1,24 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-04 14:20:47
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-04 14:25:01
+*/
+@import url(公共页面样式/导航栏.css);
+@import url(公共页面样式/简单搜索框.css);
+@import url(公共页面样式/页脚一.css);
+@import url(公共页面样式/页脚二.css);
+
+div.orderFinishDiv {
+    border: 1px solid #E5E5E5;
+    padding: 40px;
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.orderFinishDiv span {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 20px;
+}

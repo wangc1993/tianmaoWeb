@@ -1,0 +1,55 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-18 11:51:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-18 12:38:30
+*/
+/* 搜索栏 */
+div.searchDiv{
+    background-color: #c40000;
+    width: 400px;
+    height: 40px;
+    margin: 60px auto;
+    padding: 1px;
+
+}
+div.searchDiv input{
+    width: 275px;
+    height: 36px;
+    margin: 1px;//使输入框与边框间看起来有距离
+    border: 1px solid transparent;
+    outline: none;//去掉输入框轮廓，否则获取焦点的时候会发生颜色变化
+}
+div.searchDiv button{
+    width: 110px;
+    background-color: #c40000;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.searchBelow{
+    margin-top: 3px;
+    margin-left: -20px;//为了让below与搜索框对其
+}
+div.searchBelow a{
+    padding: 0 20px;
+    font-size: 14px;
+}
+img.logo{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    /* z-index: -1; //使图片陷在里面，不能点击*/
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+a{
+    color: #999;
+}
+a:hover{
+    color: #c40000;
+    text-decoration: none;
+}

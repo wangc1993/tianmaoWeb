@@ -1,0 +1,25 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-28 10:45:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-28 13:10:38
+*/
+@import url(../公共页面样式/导航栏.css);
+@import url(../公共页面样式/简单搜索框.css);
+@import url(../公共页面样式/页脚一.css);
+@import url(../公共页面样式/页脚二.css);
+
+@import url(产品图片.css);
+@import url(产品详情.css);
+@import url(基本信息.css);
+@import url(累计评价.css);
+
+div.categoryPictureInProductPageDiv{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+div.productPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;;
+}

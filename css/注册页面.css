@@ -1,0 +1,52 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-05 10:14:53
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-05 11:43:03
+*/
+@import url(公共页面样式/导航栏.css);
+@import url(公共页面样式/简单搜索框.css);
+@import url(公共页面样式/页脚一.css);
+@import url(公共页面样式/页脚二.css);
+
+div.registerDiv {
+    margin: 10px 20px;
+    text-align: center;
+}
+table.registerTable {
+    color: #3C3C3C;
+    font-size: 16px;
+    table-layout: fixed;/*table-Layout 属性用来显示表格单元格、行、列的算法规则。fixed表示列宽由表格宽度和列宽度设定*/
+    margin-top: 50px;
+}
+table.registerTable td {
+    padding: 10px 30px;
+}
+table.registerTable input {
+    border: 1px solid #DEDEDE;
+    width: 213px;
+    height: 36px;
+    font-size: 14px;
+}
+table.registerTable button {
+    width: 170px;
+    height: 36px;
+    border-radius: 2px;
+    color: white;
+    background-color: #C40000;
+    border-width: 0px;
+}
+td.registerTip {
+    font-weight: bold;
+}
+td.registerTableRightTD {
+    width: 300px;
+    text-align: left;
+}
+td.registerTableLeftTD {
+    width: 300px;
+    text-align: right;
+}
+td.registerButtonTD {
+    text-align: center;
+}

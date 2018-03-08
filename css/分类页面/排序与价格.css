@@ -1,0 +1,58 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-22 10:54:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-22 18:10:54
+*/
+/* 排序与价格 */
+div.categoryPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.categorySortBar{
+    background-color: #faf9f9;
+    margin: 40px 20px 20px 20px;
+    padding: 4px;
+}
+table.categorySortBarTable{
+    vertical-align: middle;
+    display: inline-block;
+    border-collapse: collapse;//设置单元格之间距离
+}
+table.categorySortBarTable span.glyphicon{
+    font-size: 10px;
+}
+table.categorySortBarTable td{
+    height: 17px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+table.categorySortBarTable td.grayColumn{
+    background-color: #f1edec;
+}
+table.categorySortBarTable td a{
+    color: #806f66;
+}
+table.categorySortBarTable td a:hover{
+    color: #c40000;
+    text-decoration: none;
+}
+/*价格间的输入框*/
+table.categorySortBarTable input{
+    border-width: 0;
+    height: 100%;
+    width: 50px;
+}
+table.categorySortBarTable td.priceMiddleColumn{
+    width: 5px;
+    vertical-align: middle;
+    color: #cccccc;
+}
+table.categorySortBarTable td:hover{
+    background-color: #f1edec;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}

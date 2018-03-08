@@ -1,0 +1,33 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-24 21:30:25
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-24 22:02:30
+*/
+/* 产品图片 */
+div.imgAndInfo{
+    margin: 40px 20px;
+}
+div.imgInimgInfo{
+    width: 400px;
+    float: left;
+}
+div.imgAndInfo img.bigImg{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+}
+div.imgAndInfo div.smallImgDiv{
+    width: 80%;
+    margin: 20px auto;
+}
+div.imgAndInfo img.smallImg{
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+div.imgAndInfo img.smallImg:hover{
+    cursor: pointer;
+    border-color: black;
+}

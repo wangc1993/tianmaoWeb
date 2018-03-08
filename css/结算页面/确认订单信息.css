@@ -1,0 +1,174 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-02 11:06:56
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-03 11:44:42
+*/
+div.buyPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.productListTip{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+table.productListTable {
+    width: 100%;
+    border-collapse: separate;
+    font-size: 12px;
+}
+table.productListTable th {
+    color: #999999;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+th.productListTableFirstColumn {
+    text-align: left !important;
+}
+table.productListTable tr.rowborder td {
+    background-color: #b2d1ff;
+    border-right: 2px solid #fff;
+    height: 3px;
+}
+img.tmallbuy {
+    width: 15px;
+}
+a.marketLink {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+}
+a.marketLink:hover {
+    color: black;
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: Arial;
+    font-weight: normal;
+}
+span.wangwangGif {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../images/site/wangwang.gif);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: -83px -0px;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+tbody.productListTableTbody td {
+    text-align: center;
+    font-size:12px;
+}
+tbody.productListTableTbody td.orderItemFirstTD {
+    text-align: left;
+}
+tr.orderItemTR td {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 0;
+}
+img.orderItemImg {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+}
+td.orderItemProductInfo {
+    text-align: left !important;
+}
+td.orderItemProductInfo img {
+    height: 16px;
+}
+a.orderItemProductLink {
+    color: #666666;
+    display: block;
+}
+a.orderItemProductLink:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+span.orderItemProductPrice, span.orderItemProductNumber {
+    color: #000000;
+}
+span.orderItemUnitSum {
+    color: #CC0000;
+    font-weight: bold;
+}
+td.orderItemFirstTD, td.orderItemLastTD {
+    border-bottom: 0px solid black !important;
+}
+label.orderItemDeliveryLabel {
+    color: #666666;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+select.orderItemDeliverySelect {
+    width: 100px;
+    height: 23px;
+}
+div.orderItemSumDiv {
+    padding: 20px;
+    border-top: 2px solid #B4D0FF;
+    background-color: #F2F6FF;
+    height: 50px;
+}
+div.orderItemSumDiv span {
+    color: #999999;
+}
+span.leaveMessageText {
+    display: inilne-block;
+    margin-right: 10px;
+    float: left;
+}
+div.orderItemTotalSumDiv {
+    margin: 40px;
+    height: 40px;
+}
+div.orderItemTotalSumDiv span {
+    color: #999999;
+}
+div.submitOrderDiv {
+    height: 40px;
+    margin: 20px 0px;
+}
+span.orderItemTotalSumSpan {
+    color: #C40000 !important;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+}
+button {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 180px;
+    height: 40px;
+}
+button.submitOrderButton {
+    border: 1px solid #C40000;
+    background-color: #C40000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    float: right;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+textarea.leaveMessageTextarea {
+    border: 1px solid #FFAD35;
+    width: 250px;
+    height: 60px;
+    resize: none;/*规定是否可由用户调整元素的尺寸,默认就为none*/
+}

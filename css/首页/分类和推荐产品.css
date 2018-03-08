@@ -1,0 +1,60 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-19 10:40:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-19 19:24:45
+*/
+/* 分类和推荐产品 */
+div.categoryMenu{
+    width: 200px;
+    position: absolute;
+    left: 0;/*下面的左外边距在这基础上起作用*/
+    top: 0;
+    margin-left: 20px;
+    z-index: 1;/*为了使这个链接不和轮播重叠在一起*/
+    background-color: #e2e2e3;
+}
+div.categoryMenu a{
+    color: #000;
+}
+div.categoryMenu a:hover{
+    color: lightskyblue;
+    text-decoration: none;
+}
+div.productsAsideCategory{
+    width: 800px;
+    height: 510px;/*与轮播的高度一样，显示的时候正好遮挡它*/
+    background-color: white;
+    margin-left: 220px;/*刚刚接着左边的菜单*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;/*为了可以点击*/;
+}
+div.productsAsideCategory div.row{
+    margin: 20px 80px 0 80px;
+}
+div.productsAsideCategory div.row div.seperator{
+    margin-top: 20px;
+    border-bottom: 1px dashed #e7e7e7;
+}
+div.productsAsideCategory a{
+    color: #999;
+    font-size: 14px;
+}
+div.productsAsideCategory a:hover{
+    color: #c40000;
+    text-decoration: none;
+}
+
+div.eachCategory{
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+div.eachCategory span{
+    margin-right: 10px;
+}
+div.eachCategory:hover{
+    background-color: white;/*感觉和右边的产品列表连在一起*/
+}
